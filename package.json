@@ -1,6 +1,6 @@
 {
   "name": "cat-picture",
-  "version": "5.0.0",
+  "version": "5.0.1",
   "description": "makes a cat appear on your web site",
   "main": "index.js",
   "scripts": {
