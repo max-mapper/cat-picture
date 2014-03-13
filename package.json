@@ -8,6 +8,14 @@
   },
   "author": "max ogden",
   "license": "BSD",
-  "dependencies": {
-  }
+  "dependencies": {},
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/maxogden/cat-picture.git"
+  },
+  "bugs": {
+    "url": "https://github.com/maxogden/cat-picture/issues"
+  },
+  "homepage": "https://github.com/maxogden/cat-picture"
 }
