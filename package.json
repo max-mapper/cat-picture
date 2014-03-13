@@ -1,6 +1,6 @@
 {
   "name": "cat-picture",
-  "version": "5.0.1",
+  "version": "5.0.2",
   "description": "makes a cat appear on your web site",
   "main": "index.js",
   "scripts": {
@@ -25,7 +25,7 @@
   },
   "homepage": "https://github.com/maxogden/cat-picture",
   "testling": {
-    "files": "test/*.js",
+    "files": "test.js",
     "browsers": [
       "ie/8..latest",
       "firefox/17..latest",
