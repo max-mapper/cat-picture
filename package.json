@@ -1,0 +1,13 @@
+{
+  "name": "cat-picture",
+  "version": "1.0.0",
+  "description": "makes a cat appear",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "max ogden",
+  "license": "BSD",
+  "dependencies": {
+  }
+}
