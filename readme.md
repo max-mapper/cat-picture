@@ -12,10 +12,11 @@ simply `require('cat-picture')` to make it happen
 require('cat-picture')
 ```
 
+## demo
+
+[try it on requirebin](http://requirebin.com/?gist=9522894)
+
 does this:
 
 ![cat](picture.png)
 
-## demo
-
-[try it on requirebin](http://requirebin.com/?gist=9522894)
