@@ -4,7 +4,7 @@ makes a cat picture appear on your web site
 
 simply `require('cat-picture')` to make it happen
 
-![testling badge](https://ci.testling.com/maxogden/cat-picture.png)
+[![testling badge](https://ci.testling.com/maxogden/cat-picture.png)](https://ci.testling.com/maxogden/cat-picture)
 
 ## usage
 
