@@ -1,6 +1,6 @@
 {
   "name": "cat-picture",
-  "version": "2.0.0",
+  "version": "3.0.0",
   "description": "makes a cat appear",
   "main": "index.js",
   "scripts": {
@@ -8,8 +8,7 @@
   },
   "author": "max ogden",
   "license": "BSD",
-  "dependencies": {},
-  "devDependencies": {
+  "dependencies": {
     "brfs": "^1.0.0"
   },
   "browserify": { "transform": [ "brfs" ] },
