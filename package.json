@@ -1,17 +1,21 @@
 {
   "name": "cat-picture",
   "version": "5.0.0",
-  "description": "makes a cat appear",
+  "description": "makes a cat appear on your web site",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "browserify test.js"
   },
   "author": "max ogden",
   "license": "BSD",
   "dependencies": {
     "brfs": "^1.0.0"
   },
-  "browserify": { "transform": [ "brfs" ] },
+  "browserify": {
+    "transform": [
+      "brfs"
+    ]
+  },
   "repository": {
     "type": "git",
     "url": "https://github.com/maxogden/cat-picture.git"
@@ -19,5 +23,24 @@
   "bugs": {
     "url": "https://github.com/maxogden/cat-picture/issues"
   },
-  "homepage": "https://github.com/maxogden/cat-picture"
+  "homepage": "https://github.com/maxogden/cat-picture",
+  "testling": {
+    "files": "test/*.js",
+    "browsers": [
+      "ie/8..latest",
+      "firefox/17..latest",
+      "firefox/nightly",
+      "chrome/22..latest",
+      "chrome/canary",
+      "opera/12..latest",
+      "opera/next",
+      "safari/5.1..latest",
+      "ipad/6.0..latest",
+      "iphone/6.0..latest",
+      "android-browser/4.2..latest"
+    ]
+  },
+  "devDependencies": {
+    "browserify": "^3.32.1"
+  }
 }
