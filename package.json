@@ -1,6 +1,6 @@
 {
   "name": "cat-picture",
-  "version": "1.0.0",
+  "version": "2.0.0",
   "description": "makes a cat appear",
   "main": "index.js",
   "scripts": {
@@ -9,7 +9,10 @@
   "author": "max ogden",
   "license": "BSD",
   "dependencies": {},
-  "devDependencies": {},
+  "devDependencies": {
+    "brfs": "^1.0.0"
+  },
+  "browserify": { "transform": [ "brfs" ] },
   "repository": {
     "type": "git",
     "url": "https://github.com/maxogden/cat-picture.git"
