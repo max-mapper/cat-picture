@@ -6,3 +6,4 @@ var img = document.createElement('img')
 img.setAttribute('src', cat)
 img.setAttribute('class', 'cat-picture')
 document.body.appendChild(img)
+module.exports = img
